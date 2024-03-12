@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+
+<script src="./once.js"></script>
+<script>
+  let canOnlyRunOnce = once(function(){
+    console.log('That Happened!')
+  })
+  canOnlyRunOnce()
+  canOnlyRunOnce()
+</script>
+
+</body>
+</html>
